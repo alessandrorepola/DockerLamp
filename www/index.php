@@ -2,6 +2,7 @@
 <html>
     <head><title>Informazioni di navigazione</title></head>
     <body>
+	<h1>Hello world from Docker!!!</h1><br><br>
         <?php
             $myip = $_SERVER["REMOTE_ADDR"];
             $browser = $_SERVER["HTTP_USER_AGENT"];
